@@ -1,5 +1,5 @@
 {
-  "homepage": "https://utsavojha2.github.io/darkTheme",
+  "homepage": "http://utsavojha2.github.io/dark-theme",
   "name": "reminder",
   "version": "0.1.0",
   "private": true,
@@ -68,7 +68,7 @@
     "build": "CI= node scripts/build.js",
     "test": "node scripts/test.js",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
